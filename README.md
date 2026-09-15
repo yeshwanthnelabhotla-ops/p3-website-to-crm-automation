@@ -1,0 +1,117 @@
+# 🌐 Website Contact Form → CRM Automation
+
+An n8n automation that receives website contact-form submissions, processes the inquiry, sends the data to a CRM system, and automatically sends a confirmation email to the customer.
+
+## 🎯 Project Overview
+
+Businesses receive customer inquiries through their websites every day.
+
+Without automation, someone has to manually:
+
+1. Check the incoming inquiry
+2. Copy the customer details
+3. Add the lead to a CRM
+4. Send a confirmation email
+
+This workflow automates that process.
+
+### Automated Flow
+
+Website Contact Form
+        ↓
+Webhook
+        ↓
+Data Processing
+        ↓
+CRM
+        ↓
+Customer Confirmation Email
+
+## ⚙️ Workflow
+
+The main n8n workflow consists of four stages:
+
+### 1. Webhook
+
+Receives the contact-form submission through an HTTP POST request.
+
+### 2. Code
+
+Processes and prepares the incoming customer information.
+
+The workflow extracts:
+
+- Name
+- Email
+- Phone
+- Service
+- Message
+
+### 3. CRM Integration
+
+The processed inquiry is sent to the CRM through an HTTP request.
+
+For this project, a local mock CRM endpoint was used to simulate an external CRM API.
+
+The CRM stores:
+
+- CRM ID
+- Name
+- Email
+- Phone
+- Service
+- Message
+- Status
+- Created At
+
+### 4. Email Confirmation
+
+After the inquiry is processed, an automatic confirmation email is sent to the customer.
+
+## 🧪 Testing
+
+The workflow was tested using a `curl` HTTP request from Windows Command Prompt to simulate a website sending a contact-form submission.
+
+Example test data:
+
+- Name: Rahul Sharma
+- Email: rahul@gmail.com
+- Phone: 9876543210
+- Service: E-commerce Website
+- Message: I need an online store for my clothing business
+
+The test successfully triggered the complete automation.
+
+### Result
+
+The submitted inquiry was:
+
+✅ Received by the webhook  
+✅ Processed by n8n  
+✅ Added to the CRM  
+✅ Confirmation email sent to the customer
+
+## 🛠️ Technologies Used
+
+- n8n
+- JavaScript
+- HTTP / REST
+- Webhooks
+- Google Sheets
+- Gmail
+- JSON
+- Windows Command Prompt (`curl`)
+
+## 📁 Repository Structure
+
+```text
+p3-website-to-crm-automation/
+│
+├── README.md
+├── workflow/
+│   └── p3-website-to-crm.json
+│
+└── screenshots/
+    ├── 01-test-request.png
+    ├── 02-crm-result.png
+    └── 03-confirmation-email.png
