@@ -104,7 +104,7 @@ The submitted inquiry was:
 
 ## 📁 Repository Structure
 
-```text
+
 p3-website-to-crm-automation/
 │
 ├── README.md
@@ -115,6 +115,8 @@ p3-website-to-crm-automation/
     ├── 01-test-request.png
     ├── 02-crm-result.png
     └── 03-confirmation-email.png
+
+
 ## 💼 Business Value
 
 This automation reduces manual data entry and ensures that customer inquiries are captured and acknowledged automatically.
