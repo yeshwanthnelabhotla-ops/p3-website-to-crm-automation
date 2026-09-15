@@ -104,10 +104,11 @@ The submitted inquiry was:
 
 ## 📁 Repository Structure
 
-
+```text
 p3-website-to-crm-automation/
 │
 ├── README.md
+│
 ├── workflow/
 │   └── p3-website-to-crm.json
 │
@@ -115,24 +116,25 @@ p3-website-to-crm-automation/
     ├── 01-test-request.png
     ├── 02-crm-result.png
     └── 03-confirmation-email.png
+```
 
 
-## 💼 Business Value
+💼 Business Value
 
 This automation reduces manual data entry and ensures that customer inquiries are captured and acknowledged automatically.
 
 It can be adapted for:
 
-- Web development agencies
-- Marketing agencies
-- Consultants
-- Local businesses
-- Service providers
-- E-commerce businesses
+Web development agencies
+Marketing agencies
+Consultants
+Local businesses
+Service providers
+E-commerce businesses
 
 The same automation pattern can be extended to real CRM platforms and additional business systems.
 
-## 🔐 Notes
+🔐 Notes
 
 This repository contains a portfolio/demo implementation.
 
@@ -140,22 +142,16 @@ The CRM endpoint used in this project is a local mock CRM created for testing. I
 
 No credentials or private authentication information are included in this repository.
 
-## 🚀 Future Improvements
+🚀 Future Improvements
 
 Possible production extensions include:
 
-- Real CRM integration
-- Lead qualification
-- Automatic lead assignment
-- Slack/Teams notifications
-- WhatsApp notifications
-- AI-powered lead classification
-- Follow-up automation
-- Error handling and alerting
-- Database integration
-
----
-
-### ⚒️ Project WealthForge
-
-Built as part of Project WealthForge — learning by building practical business automation systems using n8n, APIs, JavaScript, and AI-assisted development.
+Real CRM integration
+Automatic lead qualification
+Automatic lead assignment
+Slack/Teams notifications
+WhatsApp notifications
+AI-powered lead classification
+Follow-up automation
+Error handling and alerting
+Database integration
