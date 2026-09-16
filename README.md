@@ -51,8 +51,7 @@ The workflow extracts:
 
 The processed inquiry is sent to the CRM through an HTTP request.
 
-For this project, a local mock CRM endpoint was used to simulate an external CRM API.
-
+For this project, a mock CRM built on Google Sheets was used to simulate CRM ingestion through an HTTP API endpoint.
 The CRM stores:
 
 - CRM ID
@@ -140,6 +139,7 @@ The same automation pattern can be extended to real CRM platforms and additional
 This repository contains a portfolio/demo implementation.
 
 The CRM endpoint used in this project is a local mock CRM created for testing. In a production environment, the HTTP Request step could be connected to an actual CRM or business API.
+This project was developed and tested using a local/self-hosted n8n instance. For production use, the workflow can be deployed to a hosted or self-hosted n8n environment and connected to a real CRM platform.
 
 No credentials or private authentication information are included in this repository.
 
