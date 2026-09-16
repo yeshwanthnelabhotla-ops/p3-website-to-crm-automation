@@ -90,6 +90,7 @@ The submitted inquiry was:
 ✅ Processed by n8n  
 ✅ Added to the CRM  
 ✅ Confirmation email sent to the customer
+✅ Owner notification email sent successfully
 
 ## 🛠️ Technologies Used
 
