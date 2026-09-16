@@ -71,11 +71,12 @@ After the inquiry is processed, the workflow sends automated email notifications
 
 The workflow was tested using a `curl` HTTP request from Windows Command Prompt to simulate a website sending a contact-form submission.
 
-Example test data:
 
-- Name: Rahul Sharma
-- Email: rahul@gmail.com
-- Phone: 9876543210
+### Example Test Data
+
+- Name: Arjun Kumar
+- Email: arjun@gmail.com
+- Phone: 9988776655
 - Service: E-commerce Website
 - Message: I need an online store for my clothing business
 
