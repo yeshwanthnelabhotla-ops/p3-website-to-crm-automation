@@ -66,7 +66,7 @@ The CRM stores:
 
 ### 4. Email Confirmation
 
-After the inquiry is processed, an automatic confirmation email is sent to the customer.
+After the inquiry is processed, the workflow sends automated email notifications to both the business owner and the customer.
 
 ## 🧪 Testing
 
