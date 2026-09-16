@@ -110,9 +110,6 @@ p3-website-to-crm-automation/
 │
 ├── README.md
 │
-├── workflow/
-│   └── p3-website-to-crm.json
-│
 └── screenshots/
     ├── 01-test-request.png
     ├── 02-crm-result.png
