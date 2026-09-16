@@ -111,9 +111,12 @@ p3-website-to-crm-automation/
 ├── README.md
 │
 └── screenshots/
-    ├── 01-test-request.png
-    ├── 02-crm-result.png
-    └── 03-confirmation-email.png
+    ├── 01-main-workflow.png
+    ├── 02-mock-crm-workflow.png
+    ├── 03-test-request.png
+    ├── 04-crm-result.png
+    ├── 05-owner-lead-notification.png
+    └── 06-customer-confirmation.png
 ```
 
 
